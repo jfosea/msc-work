@@ -1,4 +1,0 @@
----
-title: "Summary of Scaling up Mendelian Randomization for High-Dimensional -Omics Data"
-output: github_document
----
