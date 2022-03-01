@@ -23,13 +23,27 @@ The authors propose a robust instrumental variable (RIV) estimator based on the 
 
 # 3 Methods
 
-The authors robusity OIV by replacing the sample estimators $(\hat{\mu}, \hat{\Sigma})$ with robust multivariate location and scatter S-estimator $(m, S)$.
+
+The OIV estimator is given by
+
+
+$$\hat{\alpha}_{OIV} = \hat{\mu}_y- \hat{\mu}_ x'\hat{\beta}_{OIV}$$
+
+$$\hat{\beta}_{OIV} = [\hat{\Sigma}_{XZ} \hat{\Sigma}_{ZZ}^{-1}\hat{\Sigma}_{ZX}]^{-1} [\hat{\Sigma}_{XZ} \hat{\Sigma}_{ZZ}^{-1}\hat{\Sigma}_{ZX}] $$
+
+where  $(\hat{\mu}, \hat{\Sigma})$ is the sample mean and sample covariance matrix based on a sample $\{(x_i, z_i, y_i)\}^n_{i=1}$ where $(x_i, z_i, y_i) \in R^p \times R^q \times R$
+
+
+The authors robustify  the OIV estimator  by replacing the sample estimators $(\hat{\mu}, \hat{\Sigma})$ with robust multivariate location and scatter S-estimator $(m, S)$.
 
 $$\hat{\alpha}_{RIV} = m_Y - m'_x \hat{\beta}_{RIV}$$
 
 $$\hat{\beta}_{RIV} = [S_{xz}S_{zz}^{-1}S_{zx}]^{-1} [S_{xz}S_{zz}^{-1}S_{zx}]$$
 
-
 # 4 Results
+
+## 4.1 Simulation 
+
+## 4.2 
 
 # 5 Questions

@@ -45,8 +45,21 @@ regardless of dimension.
 
 # 3 Methods
 
-The authors robusity OIV by replacing the sample estimators (*μ̂*, *Σ̂*)
-with robust multivariate location and scatter S-estimator (*m*, *S*).
+The OIV estimator is given by
+
+*α̂*<sub>*O**I**V*</sub> = *μ̂*<sub>*y*</sub> − *μ̂*<sub>*x*</sub>′*β̂*<sub>*O**I**V*</sub>
+
+*β̂*<sub>*O**I**V*</sub> = \[*Σ̂*<sub>*X**Z*</sub>*Σ̂*<sub>*Z**Z*</sub><sup> − 1</sup>*Σ̂*<sub>*Z**X*</sub>\]<sup> − 1</sup>\[*Σ̂*<sub>*X**Z*</sub>*Σ̂*<sub>*Z**Z*</sub><sup> − 1</sup>*Σ̂*<sub>*Z**X*</sub>\]
+
+where (*μ̂*, *Σ̂*) is the sample mean and sample covariance matrix based
+on a sample
+{(*x*<sub>*i*</sub>, *z*<sub>*i*</sub>, *y*<sub>*i*</sub>)}<sub>*i* = 1</sub><sup>*n*</sup>
+where
+(*x*<sub>*i*</sub>, *z*<sub>*i*</sub>, *y*<sub>*i*</sub>) ∈ *R*<sup>*p*</sup> × *R*<sup>*q*</sup> × *R*
+
+The authors robustify the OIV estimator by replacing the sample
+estimators (*μ̂*, *Σ̂*) with robust multivariate location and scatter
+S-estimator (*m*, *S*).
 
 *α̂*<sub>*R**I**V*</sub> = *m*<sub>*Y*</sub> − *m*′<sub>*x*</sub>*β̂*<sub>*R**I**V*</sub>
 
