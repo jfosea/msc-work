@@ -125,7 +125,7 @@ The advantage of uing RIV in datasets with outliers is that it
 downweights observations which signficantly depart from the bulk of the
 data and helps uncover the true relationships among the variables.
 
-# 5 Questions
+# 6 Questions
 
 -   **Task** Understand the other robust methods to obtain IV estimators
     and list down their pros/cons.
