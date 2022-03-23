@@ -4,10 +4,9 @@ author: Jana Osea
 output: pdf_document
 ---
 
-
 *[Link](https://onlinelibrary.wiley.com/doi/10.1111/biom.12043) to the paper.*
 
-# 1 Problem 
+# 1 Problem test
 - Ordinary Least Squares (OLS) estimates are biased and inconsistent when one of the covariates is correlated with the error terms (*endogenous*). This happens when (1) covariate is associated with unobserved predictors, (2) is measured with error, and/or (3) affected by the response variable.
 - Solution to this problem is to use Ordinary Instrumental Variables (OIV) to consistently estimate the parameters of the model. However, when used in real datasets, OIV's are often distorted due to outliers in the response variable.
 - There are existing robust methods to obtain IV estimators as listed below
